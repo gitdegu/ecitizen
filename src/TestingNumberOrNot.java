@@ -11,7 +11,7 @@ public class TestingNumberOrNot {
 		}
 		return true;
 	}
-	public static boolean findNumberFromACollection(String []strCollection) {
+	public static boolean doesAllCollectionsAreNumbers(String []strCollection) {
 		int i=0;
 		while(i<strCollection.length) {
 			for(int j=0;j<strCollection[i].length();j++) {
@@ -30,7 +30,7 @@ public class TestingNumberOrNot {
 		input="76";
 		System.out.println("Does the" + input +"="+ TestingNumberOrNot.isNumber(input));
 		String []inputStringSet= {"78.54","9t.65"};
-		System.out.println("The String seques " + inputStringSet +"="+ findNumberFromACollection(inputStringSet));
+		System.out.println("The String seques " + inputStringSet +"="+ doesAllCollectionsAreNumbers(inputStringSet));
 	}
 
 }
