@@ -45,6 +45,10 @@ public class TestingNumberOrNot {
 		System.out.println("Does the string" + inputDecimal +"="+ TestingNumberOrNot.isNumberForDeciamls(inputDecimal));
 		inputDecimal="78.9x";
 		System.out.println("Does the string" + inputDecimal +"="+ TestingNumberOrNot.isNumberForDeciamls(inputDecimal));
+		
+		String []inputStr= {"67.54","134.89"};
+		System.out.println("Does the string" + inputStr +"="+ TestingNumberOrNot.doesAllCollectionsAreNumbers(inputStr));
+		
 	}
 
 }
