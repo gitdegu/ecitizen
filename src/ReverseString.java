@@ -9,10 +9,17 @@ public class ReverseString {
 		return reversedStr.toString();
 	}
 	
+	public static String returnFullStirng(String left, String right) {
+		return left.concat(right);
+	}
+	
 	public static void main(String args[]) {
 		
 		String fullName="Alber Samuel";
 		System.out.println("Reversed String is=" + ReverseString.reverseAnyStrings(fullName));
+		String str1="Lea ";
+		String str2="keo";
+		System.out.println("Full String=" + returnFullStirng(str1,str2));
 		
 	}
 
