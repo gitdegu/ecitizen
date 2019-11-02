@@ -23,6 +23,14 @@ public class HashMapCollections {
 			System.out.println(pair.getKey() + " = " + pair.getValue());
 		}
 	}
+	
+	public static void showingAllValues(Map<String,String> coll) {
+		System.out.println(coll.values());
+	}
+	
+	public static void showingAllKeys(Map<String,String> coll) {
+		System.out.println(coll.keySet());
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -36,6 +44,10 @@ public class HashMapCollections {
 		readingHasMapOtherMethod_01(hmap);
 		System.out.println("...........");
 		readingHasMapOtherMethod_02(hmap);
+
+		showingAllValues(hmap);
+		System.out.println("..........");
+		showingAllKeys(hmap);
 	}
 
 }
